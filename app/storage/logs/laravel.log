@@ -1,0 +1,30 @@
+[2014-10-27 04:20:58] local.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in D:\xampps\htdocs\laravel-master\bootstrap\compiled.php:5680
+Stack trace:
+#0 D:\xampps\htdocs\laravel-master\bootstrap\compiled.php(5004): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 D:\xampps\htdocs\laravel-master\bootstrap\compiled.php(4992): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 D:\xampps\htdocs\laravel-master\bootstrap\compiled.php(4984): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 D:\xampps\htdocs\laravel-master\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 D:\xampps\htdocs\laravel-master\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 D:\xampps\htdocs\laravel-master\bootstrap\compiled.php(7744): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 D:\xampps\htdocs\laravel-master\bootstrap\compiled.php(8351): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 D:\xampps\htdocs\laravel-master\bootstrap\compiled.php(8298): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 D:\xampps\htdocs\laravel-master\bootstrap\compiled.php(10957): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 D:\xampps\htdocs\laravel-master\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 D:\xampps\htdocs\laravel-master\public\index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2014-10-27 04:21:20] local.ERROR: exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in D:\xampps\htdocs\laravel-master\bootstrap\compiled.php:5704
+Stack trace:
+#0 D:\xampps\htdocs\laravel-master\bootstrap\compiled.php(5700): Illuminate\Routing\RouteCollection->methodNotAllowed(Array)
+#1 D:\xampps\htdocs\laravel-master\bootstrap\compiled.php(5678): Illuminate\Routing\RouteCollection->getOtherMethodsRoute(Object(Illuminate\Http\Request), Array)
+#2 D:\xampps\htdocs\laravel-master\bootstrap\compiled.php(5004): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#3 D:\xampps\htdocs\laravel-master\bootstrap\compiled.php(4992): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#4 D:\xampps\htdocs\laravel-master\bootstrap\compiled.php(4984): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#5 D:\xampps\htdocs\laravel-master\bootstrap\compiled.php(715): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#6 D:\xampps\htdocs\laravel-master\bootstrap\compiled.php(696): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#7 D:\xampps\htdocs\laravel-master\bootstrap\compiled.php(7744): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#8 D:\xampps\htdocs\laravel-master\bootstrap\compiled.php(8351): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#9 D:\xampps\htdocs\laravel-master\bootstrap\compiled.php(8298): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#10 D:\xampps\htdocs\laravel-master\bootstrap\compiled.php(10957): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#11 D:\xampps\htdocs\laravel-master\bootstrap\compiled.php(657): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#12 D:\xampps\htdocs\laravel-master\public\index.php(49): Illuminate\Foundation\Application->run()
+#13 {main} [] []
